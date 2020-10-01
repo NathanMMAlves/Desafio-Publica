@@ -1,0 +1,5 @@
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioCore\bin\Debug\netcoreapp3.1\DesafioCore.deps.json
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioCore\bin\Debug\netcoreapp3.1\DesafioCore.dll
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioCore\obj\Debug\netcoreapp3.1\DesafioCore.csprojAssemblyReference.cache
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioCore\obj\Debug\netcoreapp3.1\DesafioCore.AssemblyInfoInputs.cache
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioCore\obj\Debug\netcoreapp3.1\DesafioCore.AssemblyInfo.cs
