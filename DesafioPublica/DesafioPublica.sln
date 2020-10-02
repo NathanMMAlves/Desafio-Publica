@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioCore", "DesafioCore\DesafioCore.csproj", "{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCore", "DesafioCore\DesafioCore.csproj", "{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWeb", "DesafioWeb\DesafioWeb.csproj", "{2F426F41-E0F4-4F8B-8D03-3E2FE70FA6A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWeb", "DesafioWeb\DesafioWeb.csproj", "{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F426F41-E0F4-4F8B-8D03-3E2FE70FA6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F426F41-E0F4-4F8B-8D03-3E2FE70FA6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F426F41-E0F4-4F8B-8D03-3E2FE70FA6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F426F41-E0F4-4F8B-8D03-3E2FE70FA6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
