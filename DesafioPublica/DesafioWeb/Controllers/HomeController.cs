@@ -13,16 +13,14 @@ namespace DesafioWeb.Controllers
     public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         private ManipuladorSqLite manipulador;
-        public HomeController(ManipuladorSqLite manipulador)
+        public HomeController()
         {
-            this.manipulador = manipulador;
+            manipulador = new ManipuladorSqLite();
         }
-
         public IActionResult Index()
         {
             return View();
         }
-
         public IActionResult Cadastro()
         {
             return View();
@@ -32,12 +30,13 @@ namespace DesafioWeb.Controllers
             return View();
         }
 
+       
         /*
-        private readonly ILogger<HomeController> _logger;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+        private readonly ILogger<HomeController> _logger;
         public IActionResult Index()
         {
             return View();
