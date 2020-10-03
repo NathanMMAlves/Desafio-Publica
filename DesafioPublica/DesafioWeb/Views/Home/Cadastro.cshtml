@@ -1,0 +1,31 @@
+﻿@using DesafioCore
+
+@{
+    ViewData["Title"] = "Registrar Pontuação";
+}
+
+@section Scripts
+  {
+    <script type="text/javascript" src="~/scripts/cadastro.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
+}
+
+<div class="container">
+    <div class="text-center">
+        <h2>Registrar Pontuação</h2>
+    </div>
+    <form>
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="pontuacao">Pontuação</label>
+                    <input type="text" class="form-control" id="pontuacao" placeholder="Pontuação" />
+                </div>
+            </div>
+        </div>
+        <div class="form-buttons">
+            <button type="button" class="btn btn-primary">Salvar</button>
+            <button type="button" class="btn">Novo</button>
+        </div>
+    </form>
+</div>

@@ -25,7 +25,7 @@ namespace DesafioWeb.Controllers
         {
             return View();
         }
-        public IActionResult Consulta()
+        public IActionResult Placar()
         {
             return View();
         }

@@ -89,3 +89,5 @@ C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Deb
 C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Debug\netcoreapp3.1\DesafioWeb.dll
 C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Debug\netcoreapp3.1\DesafioWeb.pdb
 C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Debug\netcoreapp3.1\DesafioWeb.genruntimeconfig.cache
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
+C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Placar.cshtml.g.cs
