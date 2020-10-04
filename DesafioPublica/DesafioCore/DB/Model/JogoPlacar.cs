@@ -11,6 +11,6 @@ namespace DesafioCore.DB.Model
         public int MaximoDaTemporada { get; set; }
         public int MinimoDaTemporada { get; set; }
         public int QuebraRecordeMin { get; set; }
-        public int QuebreRecordeMax { get; set; }
+        public int QuebraRecordeMax { get; set; }
     }
 }

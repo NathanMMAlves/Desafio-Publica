@@ -7,9 +7,9 @@ namespace DesafioCore.RegraDeNegocio.Validacoes
 {
     public class RegrasDeValidacaoFactory
     {
-        public IList<IValidacao<JogoPlacar>> ObterValidadoresJogoPlacar()
+        public IList<IValidacao<DB.Model.JogoPlacar>> ObterValidadoresJogoPlacar()
         {
-            var validacoes = new List<IValidacao<JogoPlacar>>
+            var validacoes = new List<IValidacao<DB.Model.JogoPlacar>>
             {
                 // aqui ficaram as validações
             };

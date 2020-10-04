@@ -16,7 +16,7 @@ namespace DesafioCore.DB.Map
             modelBuilder.Entity<JogoPlacar>().Property(x => x.MaximoDaTemporada).IsRequired();
             modelBuilder.Entity<JogoPlacar>().Property(x => x.MinimoDaTemporada).IsRequired();
             modelBuilder.Entity<JogoPlacar>().Property(x => x.QuebraRecordeMin).IsRequired();
-            modelBuilder.Entity<JogoPlacar>().Property(x => x.QuebreRecordeMax).IsRequired();
+            modelBuilder.Entity<JogoPlacar>().Property(x => x.QuebraRecordeMax).IsRequired();
         }
     }
 }
