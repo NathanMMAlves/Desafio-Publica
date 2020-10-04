@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesafioCore.RegraDeNegocio.Validacoes.JogoPlacar
 {
-    public class ValidadorPlacar : IValidacao<DB.Model.JogoPlacar>
+    public class PlacarValidador : IValidacao<DB.Model.JogoPlacar>
     {
         public ResultadoValidacao Validar(DB.Model.JogoPlacar model)
         {

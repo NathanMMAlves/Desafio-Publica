@@ -1,4 +1,5 @@
 ﻿using DesafioCore.DB.Model;
+using DesafioCore.RegraDeNegocio.Validacoes.JogoPlacar;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,9 +12,12 @@ namespace DesafioCore.RegraDeNegocio.Validacoes
         {
             var validacoes = new List<IValidacao<DB.Model.JogoPlacar>>
             {
-                // aqui ficaram as validações
+                new PlacarValidador(),
+                new MinimoDaTemporadaValidador(),
+                new MaximoDaTemporadaValidador(),
+                new QuebraRecordeMinValidador(),
+                new QuebreRecordeMaxValidador()                                        
             };
-
             return validacoes;
         }
     }
