@@ -1,5 +1,29 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using DesafioCore
+
+@{ ViewData["Title"] = "Placar"; }
+
+@section Scripts
+{
+    <script type="text/javascript" src="~/scripts/consulta.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
 }
+
+<div class="container">
+    <div class="text-center">
+        <h2>Placar</h2>
+    </div>
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Jogo</th>
+                <th scope="col">Placar</th>
+                <th scope="col">Mínimo da Temporada</th>
+                <th scope="col">Máximo da Temporada</th>
+                <th scope="col">Quebra recorde Min.</th>
+                <th scope="col">Quebra recorde Máx.</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
