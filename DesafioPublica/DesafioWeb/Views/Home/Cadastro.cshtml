@@ -6,7 +6,7 @@
 
 @section Scripts
   {
-    <script type="text/javascript" src="~/scripts/cadastro.js"></script>
+    <script type="text/javascript" src="~/js/cadastro.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js"></script>
 }
 
@@ -18,8 +18,13 @@
         <div class="container">
             <div class="form-row">
                 <div class="form-group col-md-3">
-                    <label for="pontuacao">Pontuação</label>
-                    <input type="text" class="form-control" id="pontuacao" placeholder="Pontuação" />
+                    <label for="Pontuacao">Pontuação</label>
+                    <input type="text" class="form-control" id="Pontuacao"
+                           onchange="Cadastro.pontuacaoFormat(event)"
+                           onkeypress="Cadastro.pontuacaoFormat(event)"
+                           onkeyup="Cadastro.pontuacaoFormat(event)"
+                           onkeydown="Cadastro.pontuacaoFormat(event)"
+                           placeholder="Pontuação" />
                 </div>
             </div>
         </div>
