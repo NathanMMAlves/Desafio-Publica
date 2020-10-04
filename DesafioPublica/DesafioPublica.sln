@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioCore", "DesafioCore\DesafioCore.csproj", "{2D6FA7E9-30A1-4C06-A1E5-BD512B8DFE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWeb", "DesafioWeb\DesafioWeb.csproj", "{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioWeb", "DesafioWeb\DesafioWeb.csproj", "{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TesteUnitario", "TesteUnitario", "{105FD360-33A6-498F-9DA6-833D5AF751DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDesafio", "UnitTestDesafio\UnitTestDesafio.csproj", "{55AF2228-2CF6-4726-B67E-2BED6C0499F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B9949E-EEE9-4B0F-AEBB-06701742A18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AF2228-2CF6-4726-B67E-2BED6C0499F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AF2228-2CF6-4726-B67E-2BED6C0499F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AF2228-2CF6-4726-B67E-2BED6C0499F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AF2228-2CF6-4726-B67E-2BED6C0499F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55AF2228-2CF6-4726-B67E-2BED6C0499F7} = {105FD360-33A6-498F-9DA6-833D5AF751DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C17757C-1C75-4DA9-A475-AD8C0FF4E19C}

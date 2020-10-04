@@ -19,7 +19,6 @@ namespace DesafioWeb.Controllers
         {
             manipulador = new ManipuladorSqLite();
         }
-
         [HttpPost]
         public JsonResult Cadastrar([FromBody] JogoPlacar novoPlacar)
         {
