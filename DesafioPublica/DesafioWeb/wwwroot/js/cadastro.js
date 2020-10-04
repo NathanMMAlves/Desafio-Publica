@@ -62,4 +62,9 @@
             return false;
         }
     }
+    static obterValores() {
+        var cadastro = {};
+        cadastro.Placar = ($("#Pontuacao").val() || "").replace(/\D/g, "");
+        return cadastro;
+    }
 }
