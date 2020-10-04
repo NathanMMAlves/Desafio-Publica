@@ -32,5 +32,10 @@ namespace DesafioCore.DB
         {
             new JogoPlacarMap().Map(modelBuilder);
         }
+
+        public IPaginador<JogoPlacar> Paginar()
+        {
+            return new Paginador<JogoPlacar>(JogosPlacares);
+        }
     }
 }
