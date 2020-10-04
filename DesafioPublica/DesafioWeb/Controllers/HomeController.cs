@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DesafioWeb.Models;
 using DesafioCore.DB;
+using DesafioCore.DB.Model;
+using DesafioCore.RegraDeNegocio.Validacoes;
 
 namespace DesafioWeb.Controllers
 {
@@ -16,6 +18,23 @@ namespace DesafioWeb.Controllers
         public HomeController()
         {
             manipulador = new ManipuladorSqLite();
+        }
+
+        [HttpPost]
+        public JsonResult Cadastrar([FromBody] JogoPlacar novoPlacar)
+        {
+            // Aqui ele irá verificar todos os validadores / Ver se existe mensagem de erro / Por fim ira cadastrar
+
+            var validadores = new RegrasDeValidacaoFactory().ObterValidadoresJogoPlacar();
+            var mensagemDeErro = validadores.Select(v => v.Validar(novoPlacar)).Where(r => !r.Valido).Select(r => r.Mensagem).ToArray();
+            if(mensagemDeErro.Length > 0)
+            {
+                var msg = String.Join(';', mensagemDeErro);
+                return Json(msg);
+            }
+
+            manipulador.AdicionarPlacar(novoPlacar);
+            return Json("");
         }
         public IActionResult Index()
         {
