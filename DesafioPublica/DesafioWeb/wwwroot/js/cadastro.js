@@ -4,17 +4,21 @@
     }
 
     static eValidoPlacar(strPlacar) {
-        if (strPlacar < 0 || strPlacar > 999) return false;
+        if (strPlacar < 0 || strPlacar > 999) {
+            return false;
+        } else {
+            return true;
+        }
+        
     }
     static pontuacaoFormat(evt) {
         var numero = evt.target.value.replace(/\D/g, "");
-        if (numero < 3 || numero > 999 || !Cadastro.eValidoPlacar(numero)) {
+        if (numero < 0 || numero > 999 || !Cadastro.eValidoPlacar(numero)) {
             $(evt.target).addClass("invalid");
         } else {
             $(evt.target).removeClass("invalid");
         }
         evt.target.value = numero;
-        return numeroPontuacao = numero;
     }
 
     static salvarCadastro() {
@@ -25,7 +29,7 @@
         var cadastro = Cadastro.obterValores();
         $('form :input').prop("disabled", true);
 
-        var sucess = (msg) => {
+        var success = (msg) => {
             $('form :input').prop("disabled", false);
             if (msg) {
                 alert(msg);
@@ -48,7 +52,7 @@
             dataType: "JSON",
 
             success: function (output) {
-                sucess(output);
+                success(output);
             },
             error: function () {
                 fail();
@@ -60,7 +64,8 @@
         if (!$("#Pontuacao").val() || $("#Pontuacao").hasClass('invalid')) {
             $("#Pontuacao").addClass('invalid');
             return false;
-        }
+        } 
+        return true;
     }
     static obterValores() {
         var cadastro = {};
