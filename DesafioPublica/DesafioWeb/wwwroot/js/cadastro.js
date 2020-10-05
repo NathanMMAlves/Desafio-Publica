@@ -61,15 +61,15 @@
     }
 
     static formularioCorreto() {
-        if (!$("#Pontuacao").val() || $("#Pontuacao").hasClass('invalid')) {
-            $("#Pontuacao").addClass('invalid');
+        if (!$("#placar").val() || $("#placar").hasClass('invalid')) {
+            $("#placar").addClass('invalid');
             return false;
         } 
         return true;
     }
     static obterValores() {
         var cadastro = {};
-        cadastro.Placar = ($("#Pontuacao").val() || "").replace(/\D/g, "");
+        cadastro.Placar = ($("#placar").val() || "").replace(/\D/g, "");
         return cadastro;
     }
 }

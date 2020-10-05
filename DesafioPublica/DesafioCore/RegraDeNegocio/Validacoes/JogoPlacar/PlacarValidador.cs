@@ -8,7 +8,7 @@ namespace DesafioCore.RegraDeNegocio.Validacoes.JogoPlacar
     {
         public ResultadoValidacao Validar(DB.Model.JogoPlacar model)
         {
-            var placar = model.Placar;
+            int placar = model.Placar;
 
             if (placar < 0 || placar > 999)
                 return Invalido();
