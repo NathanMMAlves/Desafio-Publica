@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using DesafioWeb.Models;
 using DesafioCore.DB;
 using DesafioCore.DB.Model;
 using DesafioCore.RegraDeNegocio.Validacoes;
@@ -35,19 +34,6 @@ namespace DesafioWeb.Controllers
 
             manipulador.AdicionarPlacar(novoPlacar);
             return Json("");
-        }
-
-        [HttpPost]
-        public JsonResult Paginar([FromBody] Paginador paginador)
-        {
-            const int registrosPorPagina = 25;
-            var contador = manipulador.Paginar();
-            contador.Pular((paginador.Pagina - 1) * registrosPorPagina).Pegar(registrosPorPagina);
-            var resultado = new PaginadorResultado();
-            resultado.JogoPlacares = contador.Executar().ToList();
-            resultado.TotalRegistros = contador.Contar();
-
-            return Json(resultado);
         }
         public IActionResult Index()
         {

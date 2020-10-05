@@ -20,13 +20,6 @@ using DesafioWeb;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\Views\_ViewImports.cshtml"
-using DesafioWeb.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 1 "C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\Views\Home\Cadastro.cshtml"
 using DesafioCore;
 
@@ -34,7 +27,7 @@ using DesafioCore;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"50439fef9f81c393ff647ca1a9b908b6c68b828f", @"/Views/Home/Cadastro.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96846a932272200ab420effa6a57d533867d8f20", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"30d0adea2534aa352e958880d6515b70fe7d0965", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Cadastro : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", new global::Microsoft.AspNetCore.Html.HtmlString("text/javascript"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -77,7 +70,7 @@ using DesafioCore;
             WriteLiteral("\r\n");
             DefineSection("Scripts", async() => {
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50439fef9f81c393ff647ca1a9b908b6c68b828f4714", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50439fef9f81c393ff647ca1a9b908b6c68b828f4509", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -95,7 +88,7 @@ using DesafioCore;
             }
             );
             WriteLiteral("\r\n<div class=\"container\">\r\n    <div class=\"text-center\">\r\n        <h2>Registrar Pontuação</h2>\r\n    </div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50439fef9f81c393ff647ca1a9b908b6c68b828f6176", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50439fef9f81c393ff647ca1a9b908b6c68b828f5971", async() => {
                 WriteLiteral(@"
         <div class=""container"">
             <div class=""form-row"">

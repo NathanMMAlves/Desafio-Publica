@@ -19,15 +19,8 @@ using DesafioWeb;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\Mada\Documents\GitHub\Desafio-Publica\DesafioPublica\DesafioWeb\Views\_ViewImports.cshtml"
-using DesafioWeb.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ca778aeaca41a66c11452a5c2999f6b4717a21e", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96846a932272200ab420effa6a57d533867d8f20", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"30d0adea2534aa352e958880d6515b70fe7d0965", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
